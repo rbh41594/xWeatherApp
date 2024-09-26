@@ -18,7 +18,7 @@ function App() {
       setCityData(data);
       setError("");
     } catch (error) {
-      setError("Could not fetch data for the selected city.");
+      alert(error);
       setCityData(null);
     }
   };
