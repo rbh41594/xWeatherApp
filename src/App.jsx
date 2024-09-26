@@ -48,7 +48,7 @@ function App() {
         <button type="submit">Search</button>
       </form>
 
-      {loading && <p>Loading data…</p>} 
+      {loading && <p>Loading data...</p>} 
 
       {error && <p className="error-message">{error}</p>}
 
